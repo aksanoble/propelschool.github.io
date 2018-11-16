@@ -17,8 +17,8 @@ const IndexPage = () => (
           <h2 className="subtitle">
             Currently offering a 2-week immersive program to launch your
             software engineering career. <strong>For free.</strong><br/>
-            Our next program starts from <strong>12th November, 2018</strong>.
-            Write to <a href="mailto:hello@propel.school">hello@propel.school</a> for more information.
+            Our next program starts from <strong>19th November, 2018</strong>.
+            Apply here <a href="https://goo.gl/forms/D5qSHdZu6pMDRqJ13">https://goo.gl/forms/D5qSHdZu6pMDRqJ13</a>.
           </h2>
         </div>
       </div>
