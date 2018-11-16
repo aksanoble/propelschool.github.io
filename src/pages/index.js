@@ -12,7 +12,7 @@ const IndexPage = () => (
           <h1 className="title">
             A Revolutionary New School
             <br />
-            That Invests in You
+            That Invests in You.
           </h1>
           <h2 className="subtitle">
             Currently offering a 2-week immersive program to launch your
