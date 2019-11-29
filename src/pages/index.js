@@ -20,18 +20,17 @@ const IndexPage = () => (
         <div className="container">
           <div className="columns">
             <div className="column">
-              <h1 className="title is-1 has-text-link">Welcome to Propel</h1>
+              <h1 className="title is-1 has-text-link is-spaced">Learn to code <br/>at Propel School</h1>
               <h1 className="subtitle is-3">
-                A Revolutionary New School
-                <br />
-                That Invests in You.
+                4 week intense bootcamp
               </h1>
               <p className="content is-medium ">
-                Currently offering a 2-week immersive program
+                Learn to code. Build skills. Develop your career.
+                <span className="has-text-weight-bold"> For free</span>
                 <br />
-                to launch your software engineering career.
-                <span className="has-text-weight-bold"> For free.</span>
-                <br />
+              </p>
+              <p className="content is-small is-italic has-text-weight-light" style={{fontFamily: 'monospace'}}>
+                *No coding experience required
               </p>
               <p>
                 <a
@@ -68,25 +67,25 @@ const IndexPage = () => (
               <h1 className="title is-1 is-spaced">Program details</h1>
               <p className="title is-5">SCHEDULE</p>
               <p className="subtitle is-5 is-spaced">
-                Everyday from 9:00 a.m. to 6:00 p.m. for a duration of 2 weeks.
+                Mon - Sat, 9 AM to 6 PM for 4 weeks
               </p>
               <p className="title is-5">LOCATION</p>
               <p className="subtitle is-5 is-spaced">
                 <a
                   className=""
-                  href="https://goo.gl/maps/N3CRDQR4kvz"
+                  href="https://goo.gl/maps/mNSy8U98PfhHjsUx8"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <span className="icon">
                     <i className="fas fa-map-marker-alt" />
                   </span>
-                  <span> 91Springboard, J.P. Nagar, Bangalore.</span>
+                  <span> Workflo by OYO Ranka Junction, KR Puram</span>
                 </a>
               </p>
               <p className="title is-5">COST</p>
               <p className="subtitle is-5 is-spaced">
-                <span className="tag is-warning">FREE !</span>
+                <span className="tag is-warning">Free</span>
               </p>
             </div>
           </div>
@@ -100,10 +99,10 @@ const IndexPage = () => (
             <div className="column">
               <h1 className="title is-1 is-spaced">Curriculum</h1>
               <div>
-                <p className="title is-5 has-text-bold">CLI &amp; Git</p>
+                {/* <p className="title is-5 has-text-bold">CLI &amp; Git</p>
                 <p className="subtitle is-5 is-spaced">
                   The basics of using command line interface and Git.
-                </p>
+                </p> */}
                 <p className="title is-5 has-text-bold">
                   Introduction to JavaScript
                 </p>
@@ -114,8 +113,7 @@ const IndexPage = () => (
                   Algorithms &amp; Problem solving
                 </p>
                 <p className="subtitle is-5 is-spaced">
-                  Sharpen your problem solving skills with over 80 hours of
-                  intense programming practice.
+                  Build your problem solving skills with over 200 hours of intense practice.
                 </p>
               </div>
             </div>
@@ -177,20 +175,18 @@ const IndexPage = () => (
                     MountBlue Technologies
                   </a>
                 </strong>
-                , who are interested in hiring our graduates.
               </p>
               <p className="title is-5 has-text-dark">Will I get a job ?</p>
               <p className="subtitle is-5 is-spaced">
-                The participants who do well in these 2 weeks will get referred
-                to tech companies in Bengaluru.
+                Participants who do well in the program will get referred to MountBlue Technologies
               </p>
               <p className="title is-5 has-text-dark">
                 Why are we using JavaScript ?
               </p>
               <p className="subtitle is-5 is-spaced">
-                There is a huge demand of Node, React, Angular and Vue
+                There is huge demand for Node, React, Angular and Vue
                 developers. Learning JavaScript will help you get a job in the
-                current market.
+                current market
               </p>
             </div>
           </div>
@@ -199,12 +195,13 @@ const IndexPage = () => (
       <footer className="footer">
         <div className="content has-text-centered ">
           <p>
-            An initiative by{' '}
+            A {' '}
             <strong className="has-text-link">
               <a href="https://www.mountblue.io/" target="_blank">
-                MountBlue Technologies
+                MountBlue
               </a>
             </strong>
+            {' '} initiative
           </p>
         </div>
       </footer>
