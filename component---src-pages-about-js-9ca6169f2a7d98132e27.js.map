@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/about.js"],"names":[],"mappings":"6FAAA,4CAEe,4BACX,kBAAC,IAAD","file":"component---src-pages-about-js-9ca6169f2a7d98132e27.js","sourcesContent":["import React from 'react'\nimport Layout from '../components/layout'\nexport default () => (\n    <Layout>\n        \n    </Layout>\n)"],"sourceRoot":""}

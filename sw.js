@@ -11,8 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v3.5.0/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v3.5.0"});
+importScripts("workbox-v3.6.2/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.6.2"});
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -26,35 +26,27 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-4ee65aa9162e43b4d3e1.js"
+    "url": "webpack-runtime-282a09cb02f44bcaf91b.js"
   },
   {
-    "url": "app-826a82edd38536297db8.js"
+    "url": "commons-12c7b25b977c79fbcd06.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-9c49c867da16740cb193.js"
+    "url": "app-2585dea5948ddeff442c.js"
+  },
+  {
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-f3f35f6ef3789022665d.js"
   },
   {
     "url": "index.html",
-    "revision": "6c2ca9d89aee1be37a0bcb4137934d1f"
+    "revision": "6a6a4f56d51e27df01f2eff71a1bcf1a"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "c21a4abc61e87ed399e7b720a83a6daf"
+    "revision": "ec2eb6feba715cccf1ff2845d081f87c"
   },
   {
-    "url": "10.fd6134c494506f5e6e73.css"
-  },
-  {
-    "url": "component---src-pages-index-js.e396d68a0c6170980b5f.css"
-  },
-  {
-    "url": "google-fonts/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2",
-    "revision": "d08c09f2f169f4a6edbcf8b8d1636cb4"
-  },
-  {
-    "url": "google-fonts/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2",
-    "revision": "cffb686d7d2f4682df8342bd4d276e09"
+    "url": "styles.c97d3db5ab3297682b4b.css"
   },
   {
     "url": "google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2",
@@ -65,28 +57,25 @@ self.__precacheManifest = [
     "revision": "33543c5cc5d88f5695dd08c87d280dfd"
   },
   {
-    "url": "component---src-pages-index-js-be77dfad1875504dc045.js"
+    "url": "component---src-pages-index-js-0f145214a7a4245410c8.js"
   },
   {
-    "url": "10-214fcf5bdba500fa2d4c.js"
+    "url": "styles-bf5296a6e2e101eea376.js"
   },
   {
-    "url": "static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json",
-    "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
+    "url": "page-data/index/page-data.json",
+    "revision": "afe1406463a0178127280b6085ae75fa"
   },
   {
-    "url": "0-1ca2b496ae155a2ac34c.js"
+    "url": "component---src-pages-404-js-b136bc5af85b91b250c6.js"
   },
   {
-    "url": "component---src-pages-404-js-0f80cf25fcb6db7abbf0.js"
+    "url": "page-data/404.html/page-data.json",
+    "revision": "9e23b356eb2fd5164f5eb50eb30c31e7"
   },
   {
-    "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
-    "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
-  },
-  {
-    "url": "static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json",
-    "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "d274adf0f008ef152ce70a312b04b730"
   },
   {
     "url": "manifest.webmanifest",
